@@ -1,0 +1,36 @@
+img {
+    max-height: 40px;
+}
+
+.list-container {
+    display: flex;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.image-item {
+    flex: 1;
+    min-width: 250px;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.content-item {
+    flex: 2;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 10px 0px;
+    font-weight: bold
+}
